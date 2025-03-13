@@ -1,0 +1,61 @@
+.Banner1 {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;  /* Prevents any overflow issues */
+    margin-top: 20px; /* Added margin-top */
+}
+
+.vid2 {
+    position: relative;  /* Makes the video cover the full screen */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; /* Ensures the video fills the screen without distortion */
+    z-index: -1; /* Keeps the video behind other content */
+}
+
+.content2 {
+    position: relative;
+    gap: 5px;
+    color: white;
+    height: 94vh;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px; /* Added margin-top */
+    top: -100vh;
+}
+
+i {
+    color: white; /* Change the play icon to white */
+}
+
+.content2 p {
+    font-size: 16px;
+}
+
+.content2 h1 {
+    font-size: 150px;
+}
+
+.content2 button {
+    width: 154px;
+    height: 54px;
+    background-color: rgb(28, 105, 212);
+    color: rgb(255, 255, 255);
+}
+
+.low {
+    width: 100%;
+    position: absolute;
+    bottom: -70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    font-weight: 300;
+    margin-top: 20px; /* Added margin-top */
+}

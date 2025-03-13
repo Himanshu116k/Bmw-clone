@@ -1,0 +1,52 @@
+html,body{
+    width: 100%;
+}
+.outer{
+    
+    display: flex
+;
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+    border-bottom: 3px solid white;
+    background: transparent;
+}
+.content{
+    width: 45%;
+}
+.items{
+    display: flex
+    ;
+        justify-content: space-around;
+        align-items: center;
+}
+.icons{
+    width: 14%;
+    display: flex
+;
+    justify-content: space-around;
+}
+.border1:hover{
+ border-bottom: 3px solid blue;
+   
+}
+.border1{
+    
+    height: 17vh;
+    display: flex
+;
+    align-items: center;
+    color: white;
+}
+.icons i{
+    height: 17vh;
+    display: flex
+;
+    align-items: center;
+}
+.icons i:hover{
+    border-bottom: 3px solid blue;
+}
+.icons i{
+    fill: white;
+}
