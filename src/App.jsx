@@ -11,6 +11,7 @@ import First from './Components/first.mp4'
 import Second from './Components/second.mp4'
 import { useEffect } from 'react';
 import Last from './Components/Last'
+import Last1 from './Components/Last1'
 
 function App() {
   useEffect(() => {
@@ -34,7 +35,8 @@ function App() {
       <Banner3 src={"https://bmw.scene7.com/is/image/BMW/iX_Banner1:3to1?fmt=webp&wid=1504&hei=501"} h2="The iX: The joy of electric driving." p="100 % electric. 100 % driving pleasure. 100 % BMW.
 
 Experience an entirely new sensation of sheer driving pleasure." btn="Know More"/>
-<Last/>
+
+<Last1/>
 
     </>
   )
