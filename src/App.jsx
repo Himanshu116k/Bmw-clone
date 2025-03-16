@@ -12,6 +12,7 @@ import Second from './Components/second.mp4'
 import { useEffect } from 'react';
 import Last from './Components/Last'
 import Last1 from './Components/Last1'
+import Footer from './Components/Footer'
 
 function App() {
   useEffect(() => {
@@ -37,6 +38,7 @@ function App() {
 Experience an entirely new sensation of sheer driving pleasure." btn="Know More"/>
 
 <Last1/>
+<Footer/>
 
     </>
   )
